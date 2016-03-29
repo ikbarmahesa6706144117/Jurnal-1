@@ -9,11 +9,10 @@ public class Jurnalfibo {
 		Scanner a = new Scanner(System.in);
 		System.out.print("Inputan: ");
 		int n= a.nextInt();
-                int hasil=0;
 		for(int i=1;i<=n;i++){
-                    hasil =hasil +jun(i);
+                    System.out.print(jun(i) + " ");
                 }	
-		System.out.println(hasil);
+		System.out.println();
         }
 	private static int jun(int n){
 		int f;
